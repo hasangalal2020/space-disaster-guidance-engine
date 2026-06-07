@@ -1,35 +1,12 @@
-# Space Disaster Guidance Engine (SDGE)
+from pathlib import Path
 
-disaster = input("Enter disaster type: ")
-phase = input("Enter phase (Preparedness, Response, Recovery): ")
+disaster = input("Enter disaster type: ").lower()
+phase = input("Enter phase: ").lower()
 
-if disaster.lower() == "flood":
+file_path = Path(f"knowledge-base/{disaster}s/{phase}.txt")
 
-    if phase.lower() == "preparedness":
-        print("Develop flood risk maps")
-        print("Establish early warning systems")
-
-    elif phase.lower() == "response":
-        print("Monitor flood extent")
-        print("Support evacuation planning")
-
-    elif phase.lower() == "recovery":
-        print("Conduct damage assessment")
-        print("Restore critical infrastructure")
-
-elif disaster.lower() == "earthquake":
-
-    if phase.lower() == "preparedness":
-        print("Seismic risk assessment")
-        print("Emergency drills")
-
-    elif phase.lower() == "response":
-        print("Damage assessment")
-        print("Emergency coordination")
-
-    elif phase.lower() == "recovery":
-        print("Infrastructure reconstruction")
-        print("Community recovery planning")
-
+if file_path.exists():
+    print("\nRecommended Actions:\n")
+    print(file_path.read_text())
 else:
-    print("Disaster type not yet available.")
+    print("Guidance not available yet.")
