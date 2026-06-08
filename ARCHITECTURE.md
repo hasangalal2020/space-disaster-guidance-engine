@@ -59,3 +59,17 @@ Predictive Guidance
 Guiding Principle
 
 Knowledge → Guidance → Decision Support → EO Integration → AI
+Level 5
+Decision Support
+
+Level 4
+Guidance
+
+Level 3
+Standards
+
+Level 2
+Space Resources
+
+Level 1
+Knowledge Records
