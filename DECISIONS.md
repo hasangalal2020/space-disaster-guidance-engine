@@ -111,3 +111,27 @@ SDGE architecture should remain compatible with future Earth System Digital Twin
 Rationale:
 
 Support scenario analysis, forecasting, and "what-if" assessments.
+
+Decision 006
+
+Title:
+Multi-Hazard Scope
+
+Decision:
+
+SDGE shall support both natural and human-induced disasters.
+
+Initial scope:
+
+- Flood
+- Earthquake
+- Wildfire
+- Drought
+- Cyclone
+- Landslide
+- Volcanic Eruption
+- Conflict-Induced Emergencies
+
+Rationale:
+
+Support comprehensive disaster risk management and humanitarian operations.
