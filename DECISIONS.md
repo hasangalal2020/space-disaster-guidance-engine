@@ -135,3 +135,24 @@ Initial scope:
 Rationale:
 
 Support comprehensive disaster risk management and humanitarian operations.
+## Decision 007
+
+Title:
+Context-Aware Guidance
+
+Status:
+Proposed
+
+Decision:
+
+Future SDGE guidance should consider contextual factors including:
+
+- Country
+- Region
+- Capacity
+- Vulnerability
+- Available Resources
+
+Rationale:
+
+Disaster guidance should be adapted to operational realities.
